@@ -1,0 +1,103 @@
+body {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  margin: 0px;
+}
+
+header{
+  color: #000066;
+  font-family:'Quicksand', sans-serif;
+  font-size: 1.5em;
+  background: linear-gradient(#B0B0B0, white);
+  text-align: center;
+  text-decoration: none;
+  padding: .5em;
+}
+
+header a {
+  color: #000066;
+  text-decoration: none;
+  padding: .5em;
+}
+
+h1 {
+  color: #000066;
+  text-shadow: 10px 10px 20px #B0B0B0;
+  font-size: 14em;
+  margin: 0px 0px -100px 0px;
+  font-family:'Pacifico', cursive;
+}
+
+h2 {
+  font-size: 3em;
+  color: grey;
+}
+
+img {
+  width: 80%;
+}
+
+p{
+  margin: 10px;
+}
+
+#subbio {
+  margin: 0px;
+}
+
+#worktitle {
+  margin: 80px 0px 0px 0px;
+  font-size: 4em;
+  color: #000066;
+  text-shadow: 10px 10px 20px #B0B0B0;
+}
+
+#samplework{
+  display: inline-block;
+}
+
+.work {
+  width: 250px;
+  padding: 1em;
+  vertical-align: middle;
+}
+
+footer {
+  text-align: center;
+  background: linear-gradient(white, #B0B0B0);
+  padding: 2em;
+}
+
+.icon {
+  width: 60px;
+  padding: .5em;
+}
+
+@media only screen and (min-width: 1380px) {
+  header{
+    font-size: 1em;
+    text-align: left;
+    text-decoration: none;
+    padding: .5em;
+  }
+
+  img {
+    width: 50%;
+  }
+
+  p {
+    padding: 0px 200px;
+  }
+
+  .work {
+    width: 350px;
+    padding: 1em;
+    vertical-align: middle;
+  }
+
+  .icon {
+    width: 50px;
+    padding: 1em;
+  }
+
+}
